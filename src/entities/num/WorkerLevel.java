@@ -3,22 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package program;
-
-import entities.num.OrderStatus;
-import java.util.Date;
+package entities.num;
 
 /**
  *
  * @author Jackson Antunes
  */
-public class Program {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-    }
-    
+public enum WorkerLevel {
+    JUNIOR,
+    MID_LEVEL,
+    SENIOR;
 }

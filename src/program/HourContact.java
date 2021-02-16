@@ -5,20 +5,10 @@
  */
 package program;
 
-import entities.num.OrderStatus;
-import java.util.Date;
-
 /**
  *
  * @author Jackson Antunes
  */
-public class Program {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-    }
+class HourContact {
     
 }
