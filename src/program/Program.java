@@ -5,9 +5,12 @@
  */
 package program;
 
+import entities.num.OrderStatus;
+import java.util.Date;
+
 /**
  *
- * @author jackson.antunes
+ * @author Jackson Antunes
  */
 public class Program {
 
@@ -15,7 +18,9 @@ public class Program {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("bom dia");
+        controle order = new controle(1020,new Date(),OrderStatus.confeccao);
+        System.out.println(order);
+    
     }
     
 }
